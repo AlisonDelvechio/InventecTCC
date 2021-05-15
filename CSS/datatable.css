@@ -1,0 +1,74 @@
+/* Links da data table */
+
+.page-link {
+    color: black !important;
+}
+
+.page-item.active .page-link {
+    background-color: #dee2e6 !important;
+    border-color: #B1AEAE !important;
+}
+
+.page-link:active {
+    border-color: #B7B7B7 !important;
+}
+
+/* Efeito do mouse nos botoes de ação */
+
+.btnUpdate {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.btnUpdate:active {
+    border: none;
+    background-color: transparent;
+}
+
+.btnUpdate:focus {
+    outline: 0;
+}
+
+.btnUpdate:disabled {
+    cursor: auto;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btnDelete {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.btnDelete:active {
+    border: none;
+    background-color: transparent;
+}
+
+.btnDelete:focus {
+    outline: 0;
+}
+
+.btnDelete:disabled {
+    cursor: auto;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-item {
+    border-style: none !important;
+}
+
+.dropdown-item:hover {
+    background-color: #514F4F !important;
+    color: white !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff !important;
+    text-decoration: none !important;
+    background-color: #514F4F !important;
+}

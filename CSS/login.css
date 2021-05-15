@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+div.loginMain{
+  background: #727272; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #727272 1%, #444040 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#727272), color-stop(100%,#444040)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #727272 1%,#444040 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #727272 1%,#444040 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #727272 1%,#444040 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  #727272 1%,#444040 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#727272', endColorstr='#444040',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  height:calc(100vh);
+  width:100%;
+}
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+.loginMain * {
+  box-sizing: border-box;
+  margin:0px auto;
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+
+}
+
+.loginMain body {
+
+  color: #727272
+  ;
+  /*font: 87.5%/1.5em 'Open Sans', sans-serif;*/
+  margin: 0;
+}
+
+.loginMain a {
+	color: #eee;
+	text-decoration: none;
+}
+
+.loginMain a:hover {
+	text-decoration: underline;
+}
+
+.loginMain input {
+	border: none;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+.loginMain p {
+	line-height: 1.5em;
+}
+
+.clearfix {
+  *zoom: 1;
+
+  &:before,
+  &:after {
+    content: ' ';
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+
+}
+
+.container {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ---------- LOGIN ---------- */
+
+#login form{
+	width: 250px;
+}
+#login, .logo{
+  display:inline-block;
+  width:40%;
+}
+
+#login {
+  border-right: 1px solid #fff;
+  padding: 100px 22px;
+  width: 59%;
+}
+.logo{
+  color:#fff;
+  font-size:50px;
+  line-height: 125px;
+  margin-left: 50px;
+}
+
+#login form span.fa {
+	background-color: #fff;
+	border-radius: 3px 0px 0px 3px;
+	color: #000;
+	display: block;
+	float: left;
+	height: 50px;
+  font-size:24px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+}
+
+#login form input {
+	height: 50px;
+}
+
+#login form input[type="text"], input[type="password"] {
+	background-color: #fff;
+	border-radius: 0px 3px 3px 0px;
+	color: #000;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 200px;
+  -o-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline-style: none;
+}
+
+#login form input[type="submit"] {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #000000;
+  color: #eee;
+  font-weight: bold;
+  /* margin-bottom: 2em; */
+  text-transform: uppercase;
+  padding: 5px 10px;
+  height: 30px;
+}
+
+#login form input[type="submit"]:hover {
+ background-color: white;
+ color: black;
+ cursor: pointer;
+}
+
+#login > p {
+ text-align: center;
+}
+
+#login > p span {
+ padding-left: 5px;
+}
+.middle {
+  display: flex;
+  width: 600px;
+}
+
+#login a{
+  color: white;
+}
+
+#login a:hover{
+  color: white;
+}
+
+#login a:active{
+  color: white;
+}
+
+#login a:visited{
+  color: white;
+}
+
